@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', sans-serif;
+    color: #fff;
+}
+
+.wrapper {
+    margin: 0;
+    padding: 130px 355px;
+    background-color: #141d2f;
+}
+
+.container {
+    min-width: 730px;
+    margin: 0 auto;
+    padding: 0; 
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.header {
+    flex: 0 0 100%;
+    height: 26px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    width: 144px;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 100%;
+}
+
+.theme {
+    flex: 0 0 86px;
+    height: 20px;
+    display: flex;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.theme-text {
+    width: 50px;
+    height: 18px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 140%;
+    letter-spacing: 2.5px;
+    color: #90a4d4;
+    text-transform: uppercase;
+}
+
+.search-bar {
+    padding: 8px 12px 8px 24px;
+    flex: 0 0 53px;
+    display: flex;
+    align-items: center;
+    background-color: #1e2a47;
+    border-radius: 16px;
+}
+
+.search-bar-line {
+    flex: 1 0 auto;
+    height: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.search-icon {
+    width: 24.06px;
+    height: 24px;
+}
+
+.search-input {
+    flex: 1 0 auto;
+}
+.search-input input{
+    width: 100%;
+    padding: 0;
+    background-color: #1e2a47;
+    border: none;
+    font-family: 'Space Mono', sans-serif;
+    font-size: 18px;
+    line-height: 140%;
+    vertical-align: middle;
+    color: #fff;
+}
+.search-input input:focus{
+    outline: none;
+}
+.search-btn {
+    width: 107px;
+    height: 48px;
+}
+.search-btn button {
+    width: 100%;;
+    height: 100%;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0079ff;
+    color: #fff;
+    font-family: 'Space Mono', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 150%;
+    cursor: pointer;
+}
+.search-btn button:hover {
+    background-color: #3b94fa;
+}
+
+.profile-section {
+    padding: 48px;
+    display: flex;
+    gap: 32px;
+    background-color: #1e2a47;
+    border-radius: 16px;
+}
+
+.profile-avatar {
+    flex: 0 0 117px;
+    height: 117px;
+}
+.profile-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile-info {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.user-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-info {
+    width: 176px;
+    height: 57px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.username {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 120%;
+}
+
+.tag {
+    font-size: 16px;
+    line-height: 150%;
+    color: #60abff;
+}
+
+.signup-info {
+    flex-basis: 166px;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.bio {
+    width: 212px;
+    height: 23px;
+    font-size: 15px;
+    line-height: 150%;
+    opacity: 0.7;
+}
+
+.stats {
+    width: 100%;
+    padding: 24px 32px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #141d2f;
+    border-radius: 10px;
+}
+
+.stat {
+    flex: 0 0 33.333%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.stat-name {
+    font-size: 13px;
+    line-height: 150%;
+}
+
+.stat-value {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 140%;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.link-section {
+    flex: 0 0 234.5px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.link-name {
+    font-size: 15px;
+    line-height: 150%;
+    vertical-align: middle;
+}
+
+.social {
+    opacity: 0.7;
+}
+
+.location-icon {
+    width: 13.75px;
+    height: 20px;
+}
+
+.social-icon {
+    width: 20px;
+    height: 16.25px;
+}
+
+.url-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.company-icon {
+    width: 20px;
+    height: 20px;
+}
